@@ -1,0 +1,20 @@
+.header {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  height: 80px;
+  width: 100%;
+}
+
+.header > img {
+  position: relative;
+  height: 30%;
+  top: 10px;
+  left: 45px;
+}
+
+body {
+  background-image: url(https://www.swayfinance.com/images/bigbackground.png);
+  width: 100%;
+
+}
