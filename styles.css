@@ -1,0 +1,44 @@
+
+}
+
+.container-fluid {
+  height: 1000px;
+}
+
+.header {
+  position: absolute;
+  height: 80px;
+  width: 1000px;
+}
+
+.text-muted {
+  font-size: 16px;
+  color: #728993;
+}
+
+#header-logo {
+  position: relative;
+  height: 30%;
+  top: 40px;
+  left: 50px;
+}
+
+.link-text {
+  padding: 20px 10px;
+  position: relative;
+  float: right;
+}
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://www.swayfinance.com/images/bigbackground.png);
+  height: 1000px;
+  width: 100%;
+  margin: 0 330px;
+}
