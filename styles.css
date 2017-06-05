@@ -1,44 +1,72 @@
-
-}
-
-.container-fluid {
-  height: 1000px;
-}
-
-.header {
-  position: absolute;
-  height: 80px;
-  width: 1000px;
-}
-
-.text-muted {
-  font-size: 16px;
-  color: #728993;
-}
-
-#header-logo {
-  position: relative;
-  height: 30%;
-  top: 40px;
-  left: 50px;
-}
-
-.link-text {
-  padding: 20px 10px;
-  position: relative;
-  float: right;
-}
-
-}
-
-a:link {
-  text-decoration: none;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
+  margin-top: 6rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  background-image: url("https://www.swayfinance.com/images/bigbackground.png");
   font-family: 'Roboto', sans-serif;
-  background-image: url(https://www.swayfinance.com/images/bigbackground.png);
-  height: 1000px;
-  width: 100%;
-  margin: 0 330px;
+  color: white;
+
 }
+
+a {
+  color: #728993;
+}
+
+}
+
+.text-block {
+  text-align: center;
+  margin-top: 15%;
+
+}
+/*
+.text-block > h1 {
+  letter-spacing: 0.075em;
+  font-weight: lighter;
+
+}
+
+.text-block > h4 {
+  font-weight: lighter;
+
+}
+*/
+.nav-item {
+  padding-left: 20px;
+
+}
+#logo {
+  width: 15%;
+  float: left;
+
+}
+
+#nav-menu {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  margin: 0;
+
+}
+
+#nav-menu > li {
+  display: inline;
+  padding-left: 20px;
+
+
+}
+/*
+.slack-pic {
+  width: 100%;
+  margin-top: 5%;
+  border: 0;
+
+}
+*/
+>>>>>>> 940dafb23eea0e09d8aa714c8ea075227c34c23f
